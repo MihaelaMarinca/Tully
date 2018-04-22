@@ -1,0 +1,92 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background: url(/img/full_background.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p, a, h1, h5{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* start Navbar area*/
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.navbar-light .navbar-toggler{
+    border:none!important;
+    outline:none!important;
+}
+.dark-blue-text {
+    color: #000000;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+/* end Navbar area*/
+
+.title h1 {
+    color: #676dea;
+    font-weight: 800;
+    word-wrap: break-word;
+    width: 533px;
+    text-align: center;
+    margin: auto;
+}
+
+.story-content p{
+    color: #3f3d55;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.story-content a.btn {
+    background-color: #676dea;
+    font-weight: 300;
+}
+
+.contact-area{
+    background-color: #fcfcfc;
+}
+
+.contact-area h5{
+    color: #3f3d55;
+}
+.contact-area .card{
+    border: none;
+}
+
+.contact-area p{
+    color: #525165;
+}
+
+/*Mobile & Responsive*/
+@media only screen and (max-width: 600px) {
+    .title h1{
+        font-size: 20px;
+        width: 100%;
+    }
+    .story-content p{
+        text-align: justify;
+    }
+    .icon{
+        display: inline-block;
+        width: 32%;
+        text-align: center;
+    }
+
+}
